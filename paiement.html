@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!--Paramétrage de l'ongle de page et du lien avec le css-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="paiement.css">
+  <link rel="stylesheet" type="text/html" href="offre.html">
+  <title>Paiement</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+
+<body>
+
+  <!--Création d'un boutton permettant de revenir à la page principal-->
+  <center><a href="index.html">
+      <button type="button">Study work </button> </a> </center>
+
+
+  <!--Début du formulaire pour le paiment-->
+  <div class="container">
+    <div class="pay">
+      <background-img src="img/payimg.jpg" alt="img bd" style="width: 100%; height:80%;">
+    </div>
+    <form action="ghfdhg">
+      <!--Début de la saisie d'identité-->
+      <div class="row">
+
+        <div class="col">
+
+          <h3 class="title">ADRESSE DE FACTURATION</h3>
+
+          <div class="inputBox">
+            <span>Nom et Prénom:</span>
+            <input type="text" placeholder="Kylian Hakimi">
+          </div>
+          <div class="inputBox">
+            <span>email :</span>
+            <input type="email" placeholder="example@example.com">
+          </div>
+          <div class="inputBox">
+            <span>addresse :</span>
+            <input type="text" placeholder="numéro - rue">
+          </div>
+          <div class="inputBox">
+            <span>Ville :</span>
+            <input type="text" placeholder="Toulouse">
+          </div>
+
+          <div class="flex">
+            <div class="inputBox">
+              <span>Pays :</span>
+              <input type="text" placeholder="France">
+            </div>
+            <div class="inputBox">
+              <span>code postal:</span>
+              <input type="text" placeholder="31 000">
+            </div>
+          </div>
+
+        </div>
+        <!--Début de la saisie des coordonnées bancaires-->
+        <div class="col">
+
+          <h3 class="title">Paiement</h3>
+
+          <div class="inputBox">
+            <span>cartes acceptées :</span>
+            <img src="img/card_img.png" alt="image de cb">
+          </div>
+          <div class="inputBox">
+            <span>Nom de la carte:</span>
+            <input type="text" placeholder="Kylian Hakimi">
+          </div>
+          <div class="inputBox">
+            <span>Numéro de carte :</span>
+            <input type="number" placeholder="1111-2222-3333-4444">
+          </div>
+          <div class="inputBox">
+            <span>Mois exp :</span>
+            <input type="text" placeholder="Mars">
+          </div>
+
+          <div class="flex">
+            <div class="inputBox">
+              <span>Année exp :</span>
+              <input type="number" placeholder="2024">
+            </div>
+            <div class="inputBox">
+              <span>CVV :</span>
+              <input type="text" placeholder="***">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!--Boutton pour procéder au paiment-->
+      <input type="submit" value="procéder au paiment" class="submit-btn">
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>

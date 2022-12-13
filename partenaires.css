@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.logostore 
+{
+  margin-top : 25px;
+}
+.onglet p {
+  text-align : center;
+}
+nav {
+    display: flex;
+    background-color: #011c39;
+    justify-content: space-between;
+}
+nav .top {
+    display: flex;
+}
+nav .top h1{
+    color: #ca42f0;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+nav .top img {
+    width: 7%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+nav .onglet {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+nav .onglet p {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+}
+nav .onglet p:hover {
+    color: #ca42f0;
+}
+body a {
+    text-decoration: none;
+}
+.onglet p {
+  text-align : center;
+}
+
+.carre {
+    position: absolute;
+    width:500px;
+	  height:150px;
+	  background:#ca42f0;
+    margin-left: 400px;
+    margin-top: 25px;
+    color: #ffffff;
+    
+}
+
+.carre2 {
+    position: absolute;
+    width:500px;
+	  height:200px;
+	  background:#ffffff;
+    border:2px solid #ca42f0 ;
+    margin-left: 1000px;
+    
+    margin-top: 25px;
+    color: #011c39;
+  
+}
+
+.txt {
+  margin-left: 10px;
+}
+.txt2 {
+  margin-left: 10px;
+}
+.titre {
+  margin-left : center ;
+  color: #ca42f0 ;
+  margin-top : 270px;
+}
+.sous-titre {
+  margin-left : center ;
+  color: #011c39 ;
+  
+}
+
+.carrep {
+    position: absolute;
+    width:1000px;
+	  height:600px;
+	  background:#ffffff;
+    border:2px solid #011c39 ;
+    margin-left: 500px;
+    
+    margin-top: 50px;
+    color: #011c39;
+  
+}
+.fund {
+  margin-left: 750px;
+}
+.clemence {
+  
+  margin-top: -150px;
+}
+.greenfi {
+  margin-top: 100px;
+  margin-left: 750px;
+}
+.nef{
+  margin-top: -350px;
+  margin-left: 750px; 
+}
+.forces {
+  margin-top: -270px;
+  margin-left: 400px; 
+}
+.commown {
+  margin-top: 125px;
+  margin-left: 10px;
+}
+.atelier {
+  margin-top: 50px;
+  margin-left: 400px;
+}
+.low {
+  margin-top: -50px;
+  margin-left: 400px;
+}
+.france {
+  margin-top: -350px;
+  margin-left: 10px;
+}

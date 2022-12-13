@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!--Paramétrage de l'ongle de page et du lien avec le css-->
+
+<head>
+  <link rel="stylesheet" type="text/css" href="formulaire.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Support </title>
+  <link rel="icon" type="image/png" sizes="10x10" href="img/logo.png">
+
+
+</head>
+
+<body>
+  <!--Entete en haut de page avec tout les élements-->
+  <nav>
+    <div class="top">
+      <img src="img/logo.png" alt="logo">
+      <a href="index.html">
+        <h1>Study Work</h1>
+      </a>
+    </div>
+    <div class="onglet">
+      <a href="quisommesnous.html">
+        <p>Qui sommes nous ?</p>
+      </a>
+
+      <a href="partenaires.html">
+        <p>Nos Partenaires</p>
+      </a>
+      <a href="offre.html">
+        <p>Nos Offres</p>
+      </a>
+      <a href="formulaire.html">
+        <p>Support</p>
+      </a>
+      <a href="https://fr.tipeee.com/study-work/">
+        <p>Nous Soutenir</p>
+      </a>
+      <a href="login_signup.html">
+        <p>Connexion / Inscrption</p>
+      </a>
+      <p><input type="text" id="rechercher" name="Rechercher" placeholder="Rechercher 🔎" required></p>
+    </div>
+  </nav>
+  <!--Insertion d'une image de fond au formulaire-->
+  <img class="imgfond" src="img/imagefond.png" alt="img de fond" />
+  <!--Début du formulaire-->
+  <div class="form">
+    <form action="tab" method="post">
+      <h3 class="titre">
+        <center>Support</center>
+      </h3>
+      <p>Nom: </p>
+      <input type="text" id="Nom" name="Nom" placeholder="Entrer votre nom" required><br><br>
+      <p>Prénom: </p>
+      <input type="text" id="Prénom" name="Prenom" placeholder="Entrer votre Prénom" required><br><br>
+      <p>Adresse Mail: </p>
+      <input type="email" id="Mail" name="Mail" placeholder="Entrer votre E-mail" required><br><br>
+      <p>Age: </p>
+      <input type="number" id="Age" name="Age" placeholder="Entrer votre Age" required><br><br>
+      <p><label for="Sexe">
+          Sexe
+        </label></p>
+      <select name="Sexe" id="Sexe">
+        <option value="Homme">Homme</option>
+        <option value="Femme">Femme</option>
+      </select><br><br>
+      <p> Sujet</p><br>
+      <textarea name="sujet" rows="12" cols="35"> Ecrivez votre sujet .</textarea><br>
+      <br>
+      <center>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Effacer">
+      </center>
+    </form>
+  </div>
+
+</body>
+
+</html>

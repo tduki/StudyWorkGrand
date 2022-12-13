@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+nav {
+    display: flex;
+    background-color: #011c39;
+    justify-content: space-between;
+}
+
+nav .top {
+    display: flex;
+}
+nav .top h1{
+    color: #ca42f0;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+nav .top img {
+    width: 7%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav .onglet {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav .onglet p {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+}
+nav .onglet p:hover {
+    color: #ca42f0;
+}
+
+body a {
+    text-decoration: none;
+}
+
+
+label{
+color: #011c39;
+}
+h1{
+color: #011c39;
+}
+.onglet p {
+  text-align : center;
+}
+
+table{
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  background-color: #011c39;
+  padding:40px;
+  border-radius:25px;
+  border: 1px solid #011c39;
+  width: 30%;
+  background: #011c39;
+  border: 5px solid #ca42f0;
+  color:#ca42f0;
+  margin-left : 150px;
+  margin-top: 400px;
+}
+.fieldset{
+  margin-top: 150px;
+}
+.tbody{
+  border: 3px solid #ca42f0;
+}
+
+.carre {
+    position: absolute;
+    width:800px;
+	  height:430px;
+	  background:#011c39;
+    margin-left: 1000px;
+    margin-top: 20px;
+    color: #ca42f0;
+    border-radius: 25px;
+  border: 5px solid #ca42f0;
+}
+
+.hayat{
+  margin-top: -380px;
+  margin-left: 30px;
+  
+}
+.txt2{
+  margin-left:75px;
+}
+
+.manel{
+  margin-top: 15px;
+  margin-left: 275px;
+  
+}
+.txt{
+  margin-left:330px;
+}
+
+
+
+
+.leveline{
+  margin-top: -380px;
+  margin-left: 530px;
+  
+}
+.txt3{
+  margin-left:600px;
+}
+.titre{
+  margin-left: 300px;
+}
+.carre2 {
+    position: absolute;
+    width:800px;
+	  height:250px;
+	  background:#011c39;
+    margin-left: 150px;
+    margin-top: 650px;
+    color: #ca42f0;
+    border-radius: 25px;
+  border: 5px solid #ca42f0;
+}
+
+.txt4{
+  margin-top:30px;
+  margin-left:40px;
+}
+
+.carre3 {
+    position: absolute;
+    width:800px;
+	  height:550px;
+	  background:#011c39;
+    margin-left: 1000px;
+    margin-top: 500px;
+    color: #ca42f0;
+    border-radius: 25px;
+  border: 5px solid #ca42f0;
+}
+.txt5{
+  margin-top:-20px;
+  margin-left:50px;
+  color: #ca42f0;
+}

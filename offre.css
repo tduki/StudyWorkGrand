@@ -1,0 +1,189 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    background-image:url("https://voyage-onirique.com/wp-content/uploads/2021/01/5334.jpg");
+
+}
+.logostore 
+{
+  margin-top : 25px;
+}
+.onglet p {
+  text-align : center;
+}
+nav {
+    display: flex;
+    background-color: #011c39;
+    justify-content: space-between;
+}
+nav .top {
+    display: flex;
+}
+nav .top h1{
+    color: #ca42f0;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+nav .top img {
+    width: 7%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+nav .onglet {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+nav .onglet p {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+nav .onglet p:hover {
+    color: #ca42f0;
+}
+body a {
+    text-decoration: none;
+}
+.onglet p {
+  text-align : center;
+}
+
+.snip1265 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #ffffff;
+  text-align: left;
+  font-size: 25px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 200px 300px;
+}
+.snip1265 .plan {
+  margin: 0;
+  width: 25%;
+  position: relative;
+  float: left;
+  background-color: #262626;
+  border: 1px solid #1e1e1e;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+.snip1265 .plan:hover,
+.snip1265 .plan.hover {
+  background-color: #ca42f0;
+}
+.snip1265 .plan:hover i,
+.snip1265 .plan.hover i {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.snip1265 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+.snip1265 header {
+  position: relative;
+  padding: 20px 10px;
+}
+.snip1265 header i {
+  font-size: 56px;
+  margin: 0 15px;
+  color: purple;
+  display: inline-block;
+}
+.snip1265 .plan-title {
+  top: 0;
+  font-weight: 800;
+  margin: 10px 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.snip1265 .plan-cost {
+  margin: 0;
+  opacity: 0.2;
+}
+.snip1265 .plan-price {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 1.3em;
+}
+.snip1265 .plan-type {
+  opacity: 0.8;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+.snip1265 .plan-features {
+  padding: 0;
+  margin: 0 0 40px;
+  text-align: center;
+  list-style: outside none none;
+  font-size: 0.8em;
+  
+}
+.snip1265 .plan-features li {
+  padding: 5px 5%;
+  font-weight: 500;
+  opacity: 0.5;
+  border-left: 5px solid purple;
+  margin: 2px 20px;
+}
+.snip1265 .plan-select {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.snip1265 .plan-select a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 20px;
+  border-radius: 40px;
+  font-size: 0.75em;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: purple;
+}
+.snip1265 .plan-select a:hover {
+  background-color: #262626;
+}
+.snip1265 .featured {
+  margin-top: -10px;
+  background-color: #262626;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.snip1265 .featured .plan-select a {
+  margin: 30px 20px;
+}
+@media only screen and (max-width: 767px) {
+  .snip1265 .plan {
+    width: 50%;
+  }
+  .snip1265 .plan-title,
+  .snip1265 .plan-select a {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .snip1265 .plan-select a,
+  .snip1265 .featured .plan-select a {
+    margin: 20px;
+  }
+  .snip1265 .featured {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .snip1265 .plan {
+    width: 100%;
+  }
+}
+/* Demo purposes only */
+body {
+  background-color: #212121;
+}
